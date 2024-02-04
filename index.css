@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.card{
+    width: 400px;
+    box-shadow: 0 0 10px teal;
+    border-radius: 5px;
+    margin: 60px;
+    position: relative;
+
+}
+.image{
+    width: 100%;
+}
+.image img{
+    width: 100%;
+    border-radius: 5px;
+}
+.image span{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: block;
+    background: teal;
+    border-radius: 3px;
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    color: antiquewhite;
+    cursor: pointer;
+}
+.details{
+    padding: 20px 10px;
+
+}
+.rating i{
+    color: gold;
+
+}
+.rating span{
+    font-weight: 700;
+}
+.price{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+}
